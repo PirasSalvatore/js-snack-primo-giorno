@@ -10,9 +10,9 @@ const wordtwo = String(prompt("inserisci la seconda parola"))
 if (isNaN(wordOne) || isNaN(wordtwo)) {
     alert("invalid data")
 } else if (wordOne.length > wordtwo.length) {
-    console.log(`la parola ${wordOne} è più lunga di ${wordtwo}`);
+    console.log(`la parola ${wordtwo} è più corta di ${wordOne}`);
 } else if (wordOne.length < wordtwo.length) {
-    console.log(`la parola ${wordtwo} è più lunga di ${wordOne}`);
+    console.log(`la parola ${wordOne} è più corta di ${wordtwo}`);
 } else {
     console.log(`le parole ${wordOne} e ${wordtwo} hanno la stessa lunghezza`);
 }
