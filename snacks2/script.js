@@ -7,10 +7,11 @@ Il software stampa prima la parola più corta, poi la parola più lunga.
 const wordOne = prompt("inserisci la prima parola")
 const wordtwo = prompt("inserisci la seconda parola")
 
+/* conditions */
+
 /* if (isNaN(wordOne) || isNaN(wordtwo)) {
     alert("invalid data")
 } else */
-
 if (wordOne.length > wordtwo.length) {
     console.log(`la parola ${wordtwo} è più corta di ${wordOne}`);
 } else if (wordOne.length < wordtwo.length) {
@@ -20,4 +21,3 @@ if (wordOne.length > wordtwo.length) {
 }
 
 
-/* conditions */
