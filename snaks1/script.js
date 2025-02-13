@@ -10,10 +10,13 @@ const choiseTwo = prompt("inserisci il secondo numero")
 
 
 /* conditions */
-let IsOneBig = choiseOne > choiseTwo
+const IsOneBigest = choiseOne > choiseTwo
+const IsOneEqualsTwo = choiseOne === choiseTwo
 
-if (IsOneBig) {
+if (IsOneBigest) {
     console.log(choiseOne)
+} else if (IsOneEqualsTwo) {
+    console.log("i numeri sono uguale" + choiseOne);
 } else {
     console.log(choiseTwo)
 }
