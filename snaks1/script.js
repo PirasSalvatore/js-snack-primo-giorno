@@ -16,7 +16,7 @@ const IsOneEqualsTwo = choiseOne === choiseTwo
 if (IsOneBigest) {
     console.log(choiseOne)
 } else if (IsOneEqualsTwo) {
-    console.log("i numeri sono uguale" + choiseOne);
+    console.log("i numeri sono uguali " + choiseOne);
 } else {
     console.log(choiseTwo)
 }
